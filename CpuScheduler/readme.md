@@ -89,6 +89,21 @@ dotnet run --project CpuScheduler/CpuScheduler.csproj
 3. The app will prompt for additional values as needed (burst time, priority, quantum time, etc.)
 4. View the results in the display table showing waiting times and turnaround times
 
+## My Contributions
+
+For this project, I extended the starter CPU scheduling simulator by:
+
+- Implementing two additional algorithms:
+  - Shortest Remaining Time First (SRTF)
+  - Highest Response Ratio Next (HRRN)
+- Adding performance metrics:
+  - CPU Utilization
+  - Throughput
+  - Response Time
+- Adding CSV export functionality for results
+- Testing algorithms across multiple workloads (CPU-bound, I/O-bound, mixed, and larger datasets)
+- Analyzing and comparing algorithm performance
+
 ### License
 
 This project is licensed under the terms of the [MIT license](LICENSE.txt).
